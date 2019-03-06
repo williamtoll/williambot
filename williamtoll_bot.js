@@ -10,6 +10,33 @@ bot.help((ctx) => ctx.reply('Enviame un sticker'))
 bot.on('sticker', (ctx) => ctx.reply('👍'))
 bot.hears('hi', (ctx) => ctx.reply('Hola'))
 
+bot.hears('Satélites',(ctx)=>{
+    console.log(ctx);
+    console.log("from",ctx.from);
+    console.log("message",ctx.message);
+
+    //ctx.reply('And the  @'+ctx.from.username+'');
+    ctx.reply('/top10@pdradrbot');
+});
+
+bot.hears('satelite',(ctx)=>{
+    console.log(ctx);
+    console.log("from",ctx.from);
+    console.log("message",ctx.message);
+
+    //ctx.reply('And the  @'+ctx.from.username+'');
+    ctx.reply('@'+ctx.from.username+' gran candidato');
+});
+
+bot.hears('consultando ranking satelite...',(ctx)=>{
+    console.log(ctx);
+    console.log("from",ctx.from);
+    console.log("message",ctx.message);
+
+    //ctx.reply('And the  @'+ctx.from.username+'');
+    ctx.reply('@pdradrbot' +'📡');
+});
+
 var fechaEstreno = new Date("2019-04-14").getTime();
 
 var houses = ["targaryen", "arryn", "martell", "tyrell", "greyjoy", "stark", "baratheon", "tully", "lannister"];
