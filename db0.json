@@ -1,0 +1,59 @@
+{
+  "frases": [
+    {
+      "id": 0,
+      "frase": "Por qué será que en cuanto un hombre construye un muro, su vecino inmediatamente quiere saber qué hay del otro lado",
+      "author": "Tyrion Lannister"
+    },
+    {
+      "id": 1,
+      "frase": "\"El hombre que teme a la derrota ya ha sido derrotado\"",
+      "author": "Syrio Forel"
+    },
+    {
+      "id": 2,
+      "frase": "\"Quien hace una pregunta debe ser capaz de soportar la respuesta\"",
+      "author": "Yoren"
+    },
+    {
+      "id": 3,
+      "frase": "\"La mente necesita libros como la espada necesita una piedra de afilar si quiere mantener su agudez\"",
+      "author": "Tyrion Lannister"
+    },
+    {
+      "id": 4,
+      "frase": "\"Hay una bestia que despierta en cada hombre cuando pones una espada en su mano.\"",
+      "author": "Jorah Mormont"
+    },
+    {
+      "id": 5,
+      "frase": "\"Los hijos son otro tipo de batalla, sin estandartes ni cuernos de guerra, pero no menos violenta\"",
+      "author": "Catelyn Stark"
+    },
+    {
+      "id": 6,
+      "frase": "\"El apellido es lo único que prevalece. No tu orgullo, no tu honor, sino la familia\"",
+      "author": "Tywin Lannister"
+    },
+    {
+      "id": 7,
+      "frase": "\"La verdadera historia del mundo es la historia de grandes conversaciones en salones elegantes\"",
+      "author": "Tyrion Lannister"
+    },
+    {
+      "id": 8,
+      "frase": "\"Hice lo que creí que era correcto y me asesinaron por eso\"",
+      "author": "Jon Snow"
+    },
+    {
+      "id": 9,
+      "frase": "\"La guerra es entre los vivos y los muertos. No te equivoques, los muertos están en camino\"",
+      "author": "Davos Seaworth"
+    },
+    {
+      "id": 10,
+      "frase": "\"Si crees que esto tendrá un final feliz, es que no has estado prestando atención\"",
+      "author": "Ramsay Bolton"
+    }
+  ]
+}

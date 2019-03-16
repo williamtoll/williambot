@@ -28,7 +28,7 @@ bot.start((ctx) => {
     //     bot.telegram.sendMessage(ctx.from.id, "Lo que se interponga en nuestro camino, lo derrotaremos");
     // });
 
-    var tarea = schedule.scheduleJob('00 00 08 * * *', function () {
+    var tarea = schedule.scheduleJob('0 0 9 * * *', function () {
         console.log("schedule job");
 
         var idRandom = Math.floor(Math.random() * 11);
@@ -53,11 +53,11 @@ bot.start((ctx) => {
         }
     });
 
-    ctx.reply('Hello there');
+    ctx.reply('Iniciado');
 
 });
-bot.help((ctx) => ctx.reply('Enviame un sticker'))
-bot.on('sticker', (ctx) => ctx.reply('👍'))
+//bot.help((ctx) => ctx.reply('Enviame un sticker'))
+//bot.on('sticker', (ctx) => ctx.reply('👍'))
 bot.hears('hi', (ctx) => {
     console.log("ctx", ctx);
     // var tarea=schedule.scheduleJob('30 00 * * * *', function() {
@@ -106,7 +106,29 @@ seconds_no = 0;
 
 
 
-bot.command('frases_got', (ctx) => {
+bot.command('got_quotes', (ctx) => {
+
+        var idRandom = Math.floor(Math.random() * 11);
+        console.log("idRandowm", idRandom);
+        var fraseSeleccionada = db.get('frases')
+            .find({
+                id: idRandom
+            })
+            .value();
+
+        console.log("fraseSeleccionada", fraseSeleccionada);
+
+        countDown(new Date(Date.UTC(2019, 3, 15, 01, 00, 00, 000000)));
+
+    
+        resultado = days_no + " " + days_text + " " + hours_no + " " + hours_text + " " + minutes_no + " " + minutes_text + " " + seconds_no + " " + seconds_text;
+        console.log("" + resultado);
+
+        if (fraseSeleccionada) {
+//            bot.telegram.sendMessage(ctx.from.id, fraseSeleccionada.frase + " - " + fraseSeleccionada.author);
+            ctx.reply(fraseSeleccionada.frase + " - " + fraseSeleccionada.author);
+        }
+
 
 });
 
@@ -121,6 +143,20 @@ bot.command('got', (ctx) => {
     var resultado = days_no + " " + days_text + " " + hours_no + " " + hours_text + " " + minutes_no + " " + minutes_text + " " + seconds_no + " " + seconds_text;
     console.log("" + resultado);
 
+        var idRandom = Math.floor(Math.random() * 11);
+        console.log("idRandowm", idRandom);
+        var fraseSeleccionada = db.get('frases')
+            .find({
+                id: idRandom
+            })
+            .value();
+
+        console.log("fraseSeleccionada", fraseSeleccionada);
+
+     if (fraseSeleccionada) {
+            //bot.telegram.sendMessage(ctx.from.id, fraseSeleccionada.frase + " - " + fraseSeleccionada.author);
+            ctx.reply(fraseSeleccionada.frase + " - " + fraseSeleccionada.author);
+      }
 
     return ctx.reply('En ' + resultado + ' vuelve GOT ⏳');
 });

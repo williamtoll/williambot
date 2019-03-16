@@ -2,58 +2,58 @@
   "frases": [
     {
       "id": 0,
-      "frase": "Por qué será que en cuanto un hombre construye un muro, su vecino inmediatamente quiere saber qué hay del otro lado",
-      "author": "Tyrion Lannister"
-    },
-    {
-      "id": 1,
-      "frase": "\"El hombre que teme a la derrota ya ha sido derrotado\"",
+      "frase": "\"You are troubled… Good. Trouble is the perfect time for training.” (Tienes problemas… Bien. Los problemas son el momento perfecto para entrenar)\"",
       "author": "Syrio Forel"
     },
     {
+      "id": 1,
+      "frase": "\"Winter is coming.\"",
+      "author": "Ned Stark"
+    },
+    {
       "id": 2,
-      "frase": "\"Quien hace una pregunta debe ser capaz de soportar la respuesta\"",
-      "author": "Yoren"
+      "frase": "\"You know nothing, Jon Snow.\"",
+      "author": "Ygritte"
     },
     {
       "id": 3,
-      "frase": "\"La mente necesita libros como la espada necesita una piedra de afilar si quiere mantener su agudez\"",
-      "author": "Tyrion Lannister"
+      "frase": "\"El caos no es un pozo. El caos es una escalera. Muchos de los que intentan escalarla fracasan y nunca vuelven a intentarlo. La caída los rompe. Y algunos, se les da la oportunidad de escalar. Se niegan, se aferran al reino, a los dioses o al amor. Ilusiones. Sólo la escalera es real. La escalada es todo lo que hay",
+      "author": "Petyr Baelish (Meique)\""
     },
     {
       "id": 4,
-      "frase": "\"Hay una bestia que despierta en cada hombre cuando pones una espada en su mano.\"",
-      "author": "Jorah Mormont"
+      "frase": "\"Mi padre me dijo que los grandes caen tan rápido como los pequeños\"",
+      "author": "Jon Snow "
     },
     {
       "id": 5,
-      "frase": "\"Los hijos son otro tipo de batalla, sin estandartes ni cuernos de guerra, pero no menos violenta\"",
-      "author": "Catelyn Stark"
-    },
-    {
-      "id": 6,
-      "frase": "\"El apellido es lo único que prevalece. No tu orgullo, no tu honor, sino la familia\"",
-      "author": "Tywin Lannister"
-    },
-    {
-      "id": 7,
-      "frase": "\"La verdadera historia del mundo es la historia de grandes conversaciones en salones elegantes\"",
-      "author": "Tyrion Lannister"
-    },
-    {
-      "id": 8,
-      "frase": "\"Hice lo que creí que era correcto y me asesinaron por eso\"",
+      "frase": "\"No voy a hacer un juramento que no puedo mantener. Cuando suficientes personas hacen promesas falsas, las palabras dejan de significar nada. Entonces no hay más respuestas, sólo mejores y mejores mentiras",
       "author": "Jon Snow"
     },
     {
-      "id": 9,
-      "frase": "\"La guerra es entre los vivos y los muertos. No te equivoques, los muertos están en camino\"",
-      "author": "Davos Seaworth"
+      "id": 6,
+      "frase": "\"Cuando caen las nieves y soplan los vientos blancos, el lobo solitario muere, pero la manada sobrevive\"",
+      "author": "Jon Snow"
+    },
+    {
+      "id": 7,
+      "frase": "\"La próxima vez que tenga una idea como esta, golpéame en la cara\"",
+      "author": ""
     },
     {
       "id": 10,
-      "frase": "\"Si crees que esto tendrá un final feliz, es que no has estado prestando atención\"",
-      "author": "Ramsay Bolton"
+      "frase": "\"Todo es mejor con un poco de vino en el estómago\"",
+      "author": "Tyrion Lannister"
+    },
+    {
+      "id": 9,
+      "frase": "\"Si no dejamos de lado nuestras enemistades y nos unimos, moriremos. Y luego no importa de quién sea el esqueleto que se siente en el Trono de Hierro\"",
+      "author": "Davos Seaworth"
+    },
+    {
+      "id": 8,
+      "frase": "\"Puede que sea pequeña. Puedo ser una chica, pero no estaré tejiendo junto al fuego mientras los hombres luchan por mí\"",
+      "author": "Lyanna Mormont"
     }
   ]
 }
