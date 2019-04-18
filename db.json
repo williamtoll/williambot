@@ -2,58 +2,39 @@
   "frases": [
     {
       "id": 0,
-      "frase": "\"You are troubled… Good. Trouble is the perfect time for training.” (Tienes problemas… Bien. Los problemas son el momento perfecto para entrenar)\"",
-      "author": "Syrio Forel"
-    },
-    {
-      "id": 1,
-      "frase": "\"Winter is coming.\"",
-      "author": "Ned Stark"
-    },
-    {
-      "id": 2,
-      "frase": "\"You know nothing, Jon Snow.\"",
-      "author": "Ygritte"
-    },
-    {
-      "id": 3,
-      "frase": "\"El caos no es un pozo. El caos es una escalera. Muchos de los que intentan escalarla fracasan y nunca vuelven a intentarlo. La caída los rompe. Y algunos, se les da la oportunidad de escalar. Se niegan, se aferran al reino, a los dioses o al amor. Ilusiones. Sólo la escalera es real. La escalada es todo lo que hay",
-      "author": "Petyr Baelish (Meique)\""
-    },
-    {
-      "id": 4,
-      "frase": "\"Mi padre me dijo que los grandes caen tan rápido como los pequeños\"",
-      "author": "Jon Snow "
-    },
-    {
-      "id": 5,
-      "frase": "\"No voy a hacer un juramento que no puedo mantener. Cuando suficientes personas hacen promesas falsas, las palabras dejan de significar nada. Entonces no hay más respuestas, sólo mejores y mejores mentiras",
-      "author": "Jon Snow"
-    },
-    {
-      "id": 6,
-      "frase": "\"Cuando caen las nieves y soplan los vientos blancos, el lobo solitario muere, pero la manada sobrevive\"",
-      "author": "Jon Snow"
-    },
-    {
-      "id": 7,
-      "frase": "\"La próxima vez que tenga una idea como esta, golpéame en la cara\"",
+      "frase": "\"A defender Winterfell! \"",
       "author": ""
     },
     {
-      "id": 10,
-      "frase": "\"Todo es mejor con un poco de vino en el estómago\"",
-      "author": "Tyrion Lannister"
+      "id": 1,
+      "frase": "\"Valar Morghulis \"",
+      "author": ""
     },
     {
-      "id": 9,
-      "frase": "\"Si no dejamos de lado nuestras enemistades y nos unimos, moriremos. Y luego no importa de quién sea el esqueleto que se siente en el Trono de Hierro\"",
-      "author": "Davos Seaworth"
+      "id": 2,
+      "frase": "\"Valar Dohaeris \"",
+      "author": ""
     },
     {
-      "id": 8,
-      "frase": "\"Puede que sea pequeña. Puedo ser una chica, pero no estaré tejiendo junto al fuego mientras los hombres luchan por mí\"",
-      "author": "Lyanna Mormont"
+      "id": 3,
+      "frase": "\"Shame 🔔  Shame 🔔  Shame 🔔  \"",
+      "author": ""
+    },
+    {
+      "id": 4,
+      "frase": "\"Dracarys 🐉” \"",
+      "author": ""
+    },
+    {
+      "id": 5,
+      "frase": "\"I demand trial by combat \"",
+      "author": ""
+    },
+    {
+      "id": 6,
+      "frase": "\"A defender Winterfell! \"",
+      "author": ""
     }
-  ]
+  ],
+  "usuarios": []
 }

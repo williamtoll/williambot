@@ -1,0 +1,34 @@
+{
+  "posters": [
+    {
+      "id": 0,
+      "url": "https://images.in.com/uploads/2019/04/GOT-002.jpg?ver=0.2",
+      "desc": "Actores principales"
+    },
+    {
+      "id": 1,
+      "url": "https://www.telegraph.co.uk/content/dam/tv/2019/03/06/game-of-thrones-s8_trans_NvBQzQNjv4BqzHDhaW2A9CiilXP0xXZ5zmreqapuikfNyCYuptSHoIo.jpg?imwidth=450",
+      "desc": "John y Daenerys"
+    },
+    {
+      "id": 2,
+      "url": "https://d3c1jucybpy4ua.cloudfront.net/data/61355/big_picture/GOT.jpg?1547433886",
+      "desc": ""
+    },
+    {
+      "id": 3,
+      "url": "https://pmctvline2.files.wordpress.com/2019/01/game-of-thrones-season-8-teaser.jpg?w=620",
+      "desc": ""
+    },
+    {
+      "id": 4,
+      "url": "https://s4.scoopwhoop.com/anj/sw/83a89221-d771-499b-bebe-b0e4c93b9126.jpg",
+      "desc": ""
+    },
+    {
+      "id": 5,
+      "url": "https://images.afternoonvoice.com/2019/02/got.jpg",
+      "desc": ""
+    }
+  ]
+}

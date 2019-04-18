@@ -15,9 +15,6 @@ const FileSync = require('lowdb/adapters/FileSync')
 const adapter = new FileSync('db.json')
 const db = low(adapter);
 
-const adapterImagenes = new FileSync('db_imagenes.json')
-const dbImagenes = low(adapterImagenes);
-
 db.defaults({
         frases: []
     })
@@ -65,16 +62,8 @@ bot.hears('hi', (ctx) => {
     console.log("ctx", ctx);
     // var tarea=schedule.scheduleJob('30 00 * * * *', function() {
 //	CAADAgADPwEAAksODwABs3Wcq8kBQAkC
-   //ctx.replyWithSticker("CAADAgADPwEAAksODwABs3Wcq8kBQAkC");
-
-//staff got
-//                ctx.replyWithPhoto("https://static0.srcdn.com/wordpress/wp-content/uploads/2019/03/Game-of-Thrones-Season-8.jpg?q=50&fit=crop&w=798&h=407");
-//caminante blanco el jefe
-		ctx.replyWithPhoto("https://i2.wp.com/codigoespagueti.com/wp-content/uploads/2019/02/portada-got.jpg");
-
+   ctx.replyWithSticker("CAADAgADPwEAAksODwABs3Wcq8kBQAkC");
 //    ctx.reply('Hola');
-var usuario={};
-insertarUsuario(ctx.message);
 });
 
 
@@ -103,8 +92,8 @@ seconds_no = 0;
 
 
 bot.command('got_quotes', (ctx) => {
-	var listaFrases=db.get('frases').size().value();
-	console.log("listaFrases length",listaFrases);
+	var listaFrases=db.get('frases');
+	console.log("listaFrases length",listaFrases.length);
         
 	var idRandom = Math.floor(Math.random() * 11);
         console.log("idRandowm", idRandom);
@@ -125,13 +114,11 @@ bot.command('got_quotes', (ctx) => {
         if (fraseSeleccionada) {
 //            bot.telegram.sendMessage(ctx.from.id, fraseSeleccionada.frase + " - " + fraseSeleccionada.author);
 //            ctx.reply(fraseSeleccionada.frase + " - " + fraseSeleccionada.author);
- //           ctx.reply(fraseSeleccionada.frase);
+            ctx.reply(fraseSeleccionada.frase);
         }
 
-//	ctx.replyWithPhoto("https://i.blogs.es/b1ad0a/arya.nymeria/1366_2000.jpg");
 
 });
-
 
 bot.command('got', (ctx) => {
     moment.locale('ES');
@@ -144,10 +131,7 @@ bot.command('got', (ctx) => {
     var resultado = days_no + " " + days_text + " " + hours_no + " " + hours_text + " " + minutes_no + " " + minutes_text + " " + seconds_no + " " + seconds_text;
     console.log("" + resultado);
 
-	var listaFrases=db.get('frases');
-	console.log("listaFrases",listaFrases.length);
-
-        var idRandom = Math.floor(Math.random() * 5);
+        var idRandom = Math.floor(Math.random() * 11);
         console.log("idRandowm", idRandom);
         var fraseSeleccionada = db.get('frases')
             .find({
@@ -159,38 +143,22 @@ bot.command('got', (ctx) => {
 
      if (fraseSeleccionada) {
             //bot.telegram.sendMessage(ctx.from.id, fraseSeleccionada.frase + " - " + fraseSeleccionada.author);
- //       ctx.reply(fraseSeleccionada.frase);
+            ctx.reply(fraseSeleccionada.frase);
 	if(idRandom==6){
-//	    ctx.replyWithSticker("CAADAgADKQIAAksODwABEcqzLbENmP4C");
+	//Joh Snow 
+	    ctx.replyWithSticker(" ctx.replyWithSticker("CAADAgADcwEAAksODwABZX7FiH9z4vsC");");
 	}
       }
-	
 
+	 ctx.replyWithSticker("CAADAgADcwEAAksODwABZX7FiH9z4vsC");
 
-	if(days_no==0){
-//		ctx.reply("Llegó el gran día. Valar Morghulis ");
-//                ctx.replyWithPhoto("https://i2.wp.com/codigoespagueti.com/wp-content/uploads/2019/02/portada-got.jpg");
-	}
-//		ctx.replyWithSticker("");
-//		ctx.replyWithPhoto("https://i2.wp.com/codigoespagueti.com/wp-content/uploads/2019/02/portada-got.jpg");
-	var imagenSeleccionada = dbImagenes.get('posters').find({id: idRandom})
-            .value();
-
-console.log("imagenSeleccionada",imagenSeleccionada);
-	if(imagenSeleccionada)
-		ctx.replyWithPhoto(imagenSeleccionada.url);
-
-	if(days_no>=0){
-//	    return ctx.reply('En ' + resultado + ' vuelve GOT ⏳');
-	}
-
+    return ctx.reply('En ' + resultado + ' vuelve GOT ⏳');
 });
 
 bot.on('sticker', (ctx) => {
 	console.log("sticker");
 	console.log(ctx.message.sticker);
 	console.log("======================");
-
 });
 
 function countDown(t) {
@@ -253,11 +221,6 @@ function insertarFrases() {
         .write()
 }
 
-function insertarUsuario(usuario){
-
-	
-	db.get("usuarios").push(usuario).write()
-}
 
 
 bot.launch()
